@@ -31,7 +31,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
               <Link href="https://form.jotform.com/240696265138059" passHref>
               <p
-                className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                className="btn text-white bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0"
               >
                 Contact Us
               </p>

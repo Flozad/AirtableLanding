@@ -24,7 +24,7 @@ export default function Pricing() {
             <h3 className="text-lg mb-2">Basic</h3>
             <p className="mb-5">Get started with the essentials.</p>
             <p className="text-2xl font-bold mb-5">
-              $1000 <span className="text-lg">/ month</span>
+              $1,000 <span className="text-lg">/ month</span>
             </p>
             <ul className="mb-5">
               <li>Up to 20 articles</li>
