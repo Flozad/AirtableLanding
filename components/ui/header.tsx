@@ -11,8 +11,8 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
-              <Image src={logo} alt="ArticleORG" width={80} height={40} />
+            <Link href="/" className="block">
+              <Image src={logo} alt="AirtableExtensions" width={80} height={40} />
             </Link>
           </div>
         </div>

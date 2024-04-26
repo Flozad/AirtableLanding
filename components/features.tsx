@@ -6,87 +6,65 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h3 mb-4 text-gray-800">Unlock Global Markets that you aren't targeting</h2>
-            <p className="text-xl text-gray-400">Why limit your reach? Leaving questions for specific features your product already covers is leaving food on the table.</p>
+            <h2 className="h3 mb-4">Powerful Tools for Airtable</h2>
+            <p className="text-xl">Enhance your Airtable with custom extensions. From automating tasks to enriching data, our toolkit is designed to increase your productivity.</p>
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-start" data-aos-id-blocks>
 
-            {/* 1st item */}
+            {/* 1st item - Automation Tool */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-green-400" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-white" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">Multi-spoken articles</h4>
-              <p className="text-lg text-gray-400 text-center">Our autonomous experts produce in-depth tutorials apart your existing english docs (English is just 16% of the world)</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-blue-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Automate Repetitive Tasks</h4>
+              <p className="text-center">Streamline your workflows by automating repetitive tasks with our easy-to-use automation tools.</p>
             </div>
 
-            {/* 2nd item */}
+            {/* 2nd item - Data Enrichment */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-green-400" cx="32" cy="32" r="32" />
-                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-white" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">Optimize Engineer</h4>
-              <p className="text-lg text-gray-400 text-center">Free up your engineers' valuable time. They innovate; we articulate. Our documentators ensures they focus on development, not writing manuals.</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-green-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Data Enrichment</h4>
+              <p className="text-center">Enrich your records with data from external sources, providing more context and insights.</p>
             </div>
 
-            {/* 3rd item */}
+            {/* 3rd item - Visualization Tools */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-green-400" width="64" height="64" rx="32" />
-                <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <ellipse className="stroke-current text-white" cx="11" cy="11" rx="5.5" ry="11" />
-                  <path className="stroke-current text-purple-100" d="M11 0v22M0 11h22" />
-                  <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
-                </g>
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">High-Intent Traffic</h4>
-              <p className="text-lg text-gray-400 text-center">How to's are aimed at people searching for features your product already has, capturing high-intent traffic, leading potential users directly.</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-purple-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Advanced Visualizations</h4>
+              <p className="text-center">Turn your data into compelling visual stories with advanced charting and mapping tools.</p>
             </div>
 
-            {/* 4th item */}
+            {/* 4th item - Custom Blocks */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-green-400" width="64" height="64" rx="32" />
-                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5" />
-                  <circle className="stroke-current text-white" cx="13" cy="9" r="3" />
-                </g>
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">No effort and automated</h4>
-              <p className="text-lg text-gray-400 text-center">We get a login and then auto create all the articles from all the features without need of your effort.</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-red-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Custom Blocks</h4>
+              <p className="text-center">Create custom blocks for your specific needs, from tracking budgets to managing projects.</p>
             </div>
 
-            {/* 5th item */}
+            {/* 5th item - Collaboration Features */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-green-400" width="64" height="64" rx="32" />
-                <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
-                  <path className="stroke-current text-white" d="M22 30h4v12h-4z" />
-                </g>
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">New features, no problem</h4>
-              <p className="text-lg text-gray-400 text-center">With an email and an access we are good to document.</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-yellow-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Seamless Collaboration</h4>
+              <p className="text-center">Enhance team collaboration with tools that make sharing and communication seamless.</p>
             </div>
 
-            {/* 6th item */}
+            {/* 6th item - Integration Extensions */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-green-400" width="64" height="64" rx="32" />
-                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-white" d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415" />
-                  <circle className="stroke-current text-white" cx="17" cy="5" r="3" />
-                  <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
-                </g>
-              </svg>
-              <h4 className="h4 text-gray-800 mb-2">Social Posts</h4>
-              <p className="text-lg text-gray-400 text-center">Brag your features on social media.</p>
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-orange-500">
+                {/* Icon or image representing the feature */}
+              </div>
+              <h4 className="text-lg mb-2">Integration Extensions</h4>
+              <p className="text-center">Connect Airtable with other apps and services to expand your workflow capabilities.</p>
             </div>
 
           </div>
